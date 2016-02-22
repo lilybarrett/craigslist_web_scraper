@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Craigslist Pet Headlines</title>
+  <link rel="stylesheet" type="text/css" href="<%="style.css"%>"/>
+</head>
+
+<body>
+  <h1>Craigslist Pet Headlines</h1>
+
+  <% @pets_array.each do |title| %>
+    <ul>
+      <li>
+        <%= title %>
+      </li>
+    </ul>
+  <% end %>
+</body>
+</html>
