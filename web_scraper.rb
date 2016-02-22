@@ -18,3 +18,7 @@ end
 CSV.open('pets.csv', 'w') do |csv|
   csv << pets_array
 end
+
+pets_array.each do |title|
+  puts title 
+end
